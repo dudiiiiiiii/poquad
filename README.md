@@ -5,12 +5,23 @@
 
 | Split | Size  |             |
 |-------|-------|-------------|
-| Train | 23373 |             |
-| Dev   | 2924  |             |
-| Test  | 2911  | (nonpublic) |
-| **Total** | **29208** |             |
+| Train | 29579 |             |
+| Dev   | 3690  |             |
+| Test  | 3696  | (nonpublic) |
+| **Total** | **36965** |     |
 
 
 ### Evaluation results
 
 TODO
+
+### Citing
+
+```
+@misc{PoQuAD,
+  author = {{Ryszard Tuora, Natalia Zawadzka-Paluektau, Cezary Klamra, Aleksandra Zwierzchowska and Łukasz Kobyliński}},
+  title = {PoQuAD: Polish Question Answering Dataset},
+  year = {2022},
+  note = {Repository: https://github.com/ipipan/poquad},
+}
+```
