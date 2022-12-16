@@ -5,15 +5,35 @@
 
 | Split | Size  |             |
 |-------|-------|-------------|
-| Train | 29579 |             |
-| Dev   | 3690  |             |
-| Test  | 3696  | (nonpublic) |
-| **Total** | **36965** |     |
+| Train | 37414 |             |
+| Dev   | 4667  |             |
+| Test  | 4680  | (nonpublic) |
+| **Total** | **46761** |     |
 
 
-### Evaluation results
+### Baseline Evaluation results
 
-TODO
+#### Extractive QA
+
+**HERBERT-Large**
+| Metric      | Value  |
+|-------------|---------|
+| HasAns Exact Match | 64.27 |
+| HasAns F1          | 80.55 |
+| NoAns Exact Match  | 65.77 |
+| Total Exact Match  | 64.53 |
+| Total F1           | 77.96 |
+
+#### Generative QA
+
+**PLT5-Large**
+| Metric      | Value  |
+|-------------|---------|
+| HasAns Exact Match | 66.73 |
+| HasAns F1          | 80.84 |
+| NoAns Exact Match  | 52.13 |
+| Total Exact Match  | 64.17 |
+| Total F1           | 75.81 |
 
 ### Citing
 
